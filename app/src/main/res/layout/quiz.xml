@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="6dp"
+    app:cardCornerRadius="12dp"
+    android:paddingBottom="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="10dp">
+
+        <TextView
+            android:id="@+id/tvQuizQuestionNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/acme"
+            android:text="Question 1"
+            android:textColor="@color/heading"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/tvQuizQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/acme"
+            android:text="What is your name?"
+            android:textColor="@color/content"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvQuizQuestionAns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/alice"
+            android:text="I am the answer"
+            android:textColor="@color/ans"
+            android:textSize="20sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnQuizShowAns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_layout"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Show Answer"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

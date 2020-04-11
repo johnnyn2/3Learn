@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "YOUR_PROJ_NUM",
+    "firebase_url": "YOUR_FIREBASE_URL",
+    "project_id": "YOUR_PROJ_ID",
+    "storage_bucket": "YOUR_STORAGE"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "YOUR_SDK",
+        "android_client_info": {
+          "package_name": "com.example.android.a3learn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "YOUR_CLIENT_ID",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "YOUR_API_KEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

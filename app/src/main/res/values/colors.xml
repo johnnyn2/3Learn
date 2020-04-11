@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#d81b60</color>
+    <color name="deepbg">#202F66</color>
+    <color name="shallowbg">#4B63D6</color>
+    <color name="heading">#555555</color>
+    <color name="content">#999999</color>
+    <color name="ans">#FF0000</color>
+    <color name="white">#ffffff</color>
+    <color name="success">#23FF00</color>
+    <color name="activitybg">#EEEEEE</color>
+</resources>
